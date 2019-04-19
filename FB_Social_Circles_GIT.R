@@ -36,7 +36,7 @@ association1 <- association1[association1$Friend != delete.name,]
 #Run the analysis
 FB.edges <- graph_from_adjacency_matrix(as.matrix(network_matrix1), mode = "undirected", weighted = TRUE)
 
-FB.degree <- degree(FB.edges)                      #Calculate the number of connections eachnode has
+FB.degree <- degree(FB.edges)                      #Calculate the number of connections each node has
 FB.between <- betweenness(FB.edges)                #Calculate the number of shortest paths running through each node
 FB.eigencent <- eigen_centrality(FB.edges)$vector  #Calculate the degree in which one node is connected to all other nodes via different pathways
 
