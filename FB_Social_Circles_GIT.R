@@ -3,8 +3,8 @@
 #========================
 library(igraph)
 
-network_matrix <- read.csv("~/Desktop/Stuff/Knowledge/Statistics/R/Network Analysis/FB Social Circles/network_GIT_final.csv")
-association <- read.csv("~/Desktop/Stuff/Knowledge/Statistics/R/Network Analysis/FB Social Circles/association_GIT_final.csv")
+network_matrix <- read.csv("network_GIT_final.csv")
+association <- read.csv("association_GIT_final.csv")
 
 rownames(network_matrix) <- network_matrix$X
 network_matrix <- network_matrix[,-1]
