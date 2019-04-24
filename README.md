@@ -1,5 +1,5 @@
 # Facebook_social_networkR
-R code, data, and environment to create a social network plot of mutual friends on Facebook as seen in the blog post <a href="https://seaturtlessg.wordpress.com/2019/04/19/mutual-friends-network-analysis-in-r/" target="_blank" rel="noopener">Mutual Friends Network Analysis in R</a>. People's identity and the social circles they're in have been coded to protect identities.</br>
+R code, data, and environment to create a social network plot of mutual friends on Facebook as seen in the blog post <a href="https://seaturtlessg.wordpress.com/2019/04/19/mutual-friends-network-analysis-in-r/" target="_blank" rel="noopener">Mutual Friends Network Analysis in R</a>. People's names and the social circles have been coded to protect identities.</br></br>
 There are four files that can be used here:
 <ul>
   <li><strong>'association_GIT_final.csv'</strong> is a dataframe containing (1) the friend number, (2) the social group which I have organized them to (based on how I know them), and (3) the friend code, which is their name.</li>
@@ -8,7 +8,8 @@ There are four files that can be used here:
   <li><strong>'FB_Social_circles_GIT.RDATA'</strong> is the R environment containing all the objects.</li>
 </ul>
 </br>
-My random number generator (<code>RNGkind()</code>) is set to <code>"L'Ecuyer-CMRG"</code>, so if you're getting very different values or orientations from mine, consider changing your random number generator to match mine.
+My random number generator (which you can set with <code>RNGkind()</code>) is set to <code>"L'Ecuyer-CMRG"</code>, so if you're getting very different values or orientations from mine, consider changing your random number generator to match mine.
+</br>
 </br>
 Have fun!
 </br>
