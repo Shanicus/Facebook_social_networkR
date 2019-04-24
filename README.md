@@ -8,6 +8,8 @@ There are four files that can be used here:
   <li><strong>'FB_Social_circles_GIT.RDATA'</strong> is the R environment containing all the objects.</li>
 </ul>
 </br>
+My random number generator (<code>RNGkind()</code>) is set to <code>"L'Ecuyer-CMRG"</code>, so if you're getting very different values or orientations from mine, consider changing your random number generator to match mine.
+</br>
 Have fun!
 </br>
 <img class=" size-full wp-image-356 aligncenter" src="https://seaturtlessg.files.wordpress.com/2019/04/spinglass.jpeg" alt="spinglass" width="884" height="454" />
